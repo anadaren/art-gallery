@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --invert-factor: 0;
+    --background-color: #ffffff;
+    --foreground-color: #c8c8c8;
+    --primary-text-color: #000000;
+    --secondary-text-color: #777777;
+
+    --toggle-bg: #f8eb9d;
+    --toggle-fg: #ffd000;
+}
+
+[data-theme="dark"] {
+    --invert-factor: 1;
+    --background-color: #0e0e0e;
+    --foreground-color: #474747;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #a0a0a0;
+
+    --toggle-bg: #283452;
+    --toggle-fg: #00a6ff;
+}

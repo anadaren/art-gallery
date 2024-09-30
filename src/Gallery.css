@@ -1,0 +1,80 @@
+.Gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 4;
+    
+    padding: 15px;
+    column-gap: 15px;
+    width: 90vw;
+    background-color: var(--foreground-color); 
+    margin-top: 7rem;
+    border-radius: 5px;
+}
+
+.Gallery .imgs {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    margin: 1px 0px 10px 0px;
+}
+
+.Gallery .imgs:hover {
+    transition: all 0.2s ease-in-out;
+    filter: brightness(40%);
+    cursor: pointer;
+}
+
+/* Isolated Images */
+.model {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8);
+    transition: opacity .4% ease, visibility .4% ease, transform  .5% ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 99;
+}
+
+.model.open {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.model img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+}
+
+.model.open svg {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    color: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .Gallery {
+        -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+        column-width: 50px;
+    }
+}
