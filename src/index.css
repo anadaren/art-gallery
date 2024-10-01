@@ -9,7 +9,7 @@
     --background-color: #ffffff;
     --foreground-color: #c8c8c8;
     --primary-text-color: #000000;
-    --secondary-text-color: #777777;
+    --secondary-text-color: #838383;
 
     --toggle-bg: #f8eb9d;
     --toggle-fg: #ffd000;
@@ -18,7 +18,7 @@
 [data-theme="dark"] {
     --invert-factor: 1;
     --background-color: #0e0e0e;
-    --foreground-color: #474747;
+    --foreground-color: #2c2c2c;
     --primary-text-color: #ffffff;
     --secondary-text-color: #a0a0a0;
 
