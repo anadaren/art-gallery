@@ -55,6 +55,7 @@
 .page-footer {
     margin: 50px 0 50px 0;
     color: var(--secondary-text-color);
+    text-align: center;
 }
 
 .scroll-button {
@@ -109,12 +110,18 @@
 /* Mobile View */
 @media only screen and (max-width: 991px) {
 
+    #logoImg {
+        height: 42px;
+        width: 42px;
+    }
+
     .subHead {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .navButtons {
-        font-size: 15px;
+        font-size: 10px;
     }
+    
 
 }

@@ -1,4 +1,5 @@
 import "./nav.css";
+import logoImg from '/images/logo.png';
 
 export const NavBar =({ handleChange, isChecked }) => {
 
@@ -6,7 +7,7 @@ export const NavBar =({ handleChange, isChecked }) => {
     <div className="NavBar">
       <div className="navContainer">
         <div className="navLeft">
-          <img id="logoImg" src="src/images/logo.png"></img>
+          <img id="logoImg" src={logoImg}/>
           <h2 className="subHead">Illustration / Visual Design / Character Design</h2>
         </div>
         <div className="navButtons">

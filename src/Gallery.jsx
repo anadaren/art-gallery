@@ -2,17 +2,17 @@ import {useState} from 'react';
 import "./Gallery.css";
 import CloseIcon from '@mui/icons-material/Close';
 
-import Img1 from './images/img1.png';
-import Img2 from './images/img2.jpeg';
-import Img3 from './images/img3.png';
-import Img4 from './images/img4.png';
-import Img5 from './images/img5.jpeg';
-import Img6 from './images/img6.png';
-import Img7 from './images/img7.png';
-import Img8 from './images/img8.png';
-import Img9 from './images/img9.png';
-import Img10 from './images/img10.jpeg';
-import Img11 from './images/img11.png';
+import Img1 from '/images/img1.png';
+import Img2 from '/images/img2.jpeg';
+import Img3 from '/images/img3.png';
+import Img4 from '/images/img4.png';
+import Img5 from '/images/img5.jpeg';
+import Img6 from '/images/img6.png';
+import Img7 from '/images/img7.png';
+import Img8 from '/images/img8.png';
+import Img9 from '/images/img9.png';
+import Img10 from '/images/img10.jpeg';
+import Img11 from '/images/img11.png';
 
 export const Gallery = () => {
     let data = [
